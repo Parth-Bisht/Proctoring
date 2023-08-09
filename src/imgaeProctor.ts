@@ -89,6 +89,7 @@ class ImageDetector {
     this.box.style.width = "320px";
     this.box.style.height = "240px";
     this.box.style.position = "relative";
+    this.box.style.border = "1px solid black";
     this.box.appendChild(this.videoElement);
     this.box.appendChild(this.timer);
     this.timer.style.position = "absolute";
